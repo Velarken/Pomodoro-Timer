@@ -54,9 +54,9 @@ export function Timer() {
                         {minutesLeft + ' minutes : ' + secondsLeft + ' seconds'}
                     </div>
                     <div className="timerButtons">
-                        <button onClick={handleIncrement}>+</button>
-                        <button onClick={handleTimerStart}>Start Timer</button>
-                        <button onClick={handleDecremement}>-</button>
+                        <button onClick={handleIncrement}> + </button>
+                        <button onClick={handleTimerStart}> Start Timer </button>
+                        <button onClick={handleDecremement}> - </button>
                     </div>
                     <div className="timerInput">
                         <input type='number' onChange={(e) => handleTimerInput(e)}/>
